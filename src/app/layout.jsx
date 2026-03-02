@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme='light' >
       <body
-        className={`${ebGaramond.variable} antialiased`}
+        className={`${ebGaramond.variable} font-garamond antialiased`}
       >
         <Navbar></Navbar>
         {children}
