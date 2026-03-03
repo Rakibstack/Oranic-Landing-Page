@@ -1,3 +1,4 @@
+import ChooseCategory from "@/components/CategorySection";
 import HeroSection from "@/components/HeroSection";
 import InspiredSection from "@/components/InspiredSection";
 import SkinMarqueeSection from "@/components/SkinMarqueeSection";
@@ -9,6 +10,7 @@ export default function Home() {
           <HeroSection></HeroSection>
           <SkinMarqueeSection></SkinMarqueeSection>
           <InspiredSection></InspiredSection>
+          <ChooseCategory></ChooseCategory>
     </div>
   );
 }
