@@ -18,7 +18,7 @@ const HeroSection = () => {
                 <div className='absolute lg:flex p-8 gap-8  mx-auto container mx-w-[1200px] mt-20 md:mt-0 lg:left-6 lg:bottom-6 '>
                     <div className='flex-1 '>
                         <h2 className='text-[#FFFFFF] font-bold text-[2rem] md:text-[3rem] lg:text-[5rem]'>Natural Makeup <br /> For Radiant Skin</h2>
-                        <p className='text-[#FFFFFF] text-[1.5rem] mb-3'>Ponds face wash for women removes all traces of pollution, dirt, and <br /> impurities to give you a fresh and clean complexion.</p>
+                        <p className='text-[#FFFFFF] text-[1.5rem] mb-4'>Ponds face wash for women removes all traces of pollution, dirt, and <br /> impurities to give you a fresh and clean complexion.</p>
                         <button className='flex items-center gap-1 font-medium text-[1.5rem] px-6 py-3 bg-[#607315] rounded-4xl text-white cursor-pointer'>Shop Now <ChevronRight /></button>
 
                     </div>

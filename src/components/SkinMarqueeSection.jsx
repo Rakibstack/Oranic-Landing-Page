@@ -6,7 +6,7 @@ const SkinMarqueeSection = () => {
 
     return (
         <div className='bg-[#607315] p-4 '>
-            <Marquee speed={85}>
+            <Marquee speed={95} pauseOnHover>
                 <div className='flex gap-6 mr-5'>
                 <h2 className='text-[2.4rem] font-medium'>Skin Care </h2>
                <Image
