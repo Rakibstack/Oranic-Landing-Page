@@ -27,7 +27,7 @@ const HeroSection = () => {
                         <div className='flex justify-between items-center'>       
                             <div>
                             <h2 className='text-[#222222] mt-2 mb-2  text-[1.5rem]'>Cucumber Extract</h2>
-                            <span className='font-bold text-black  text-[1.5rem]'>$24.00</span> <span className='text-[#737373]'>$32.00</span>
+                            <span className='font-bold text-black  text-[1.5rem]'>$24.00</span> <span className='text-[#737373] line-through'>$32.00</span>
                             </div>
                             <span className='mr-4 w-14 h-14 flex items-center justify-center text-black p-2 rounded-full border border-gray-200'><ArrowUpRight width={30} height={30}  /></span>
                         </div>
