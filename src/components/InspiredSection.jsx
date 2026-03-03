@@ -5,7 +5,7 @@ const InspiredSection = () => {
 
     return (
         <div>
-            <div className='flex gap-5  bg-[#FFFFFF]'>
+            <div className='flex flex-col lg:flex-row gap-5  bg-[#FFFFFF]'>
                 {/* content information */}
                 <div className='flex-1 py-12 ml-12'>
                     <h2 className='text-[#222222] font-medium text-2xl md:text-3xl lg:text-[3.5rem] mr-2'>Rooted in science. <br />Inspired by nature.</h2>
@@ -65,8 +65,7 @@ const InspiredSection = () => {
                     alt='Inspired Image'
                     width={820}
                     height={400}
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    className='w-full h-auto'
+                    
                     />
 
                 </div>
