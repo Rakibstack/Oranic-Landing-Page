@@ -15,7 +15,7 @@ const NaturalMakeupSection = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#A9A884]/40  to-transparent"></div>
                 {/* card item */}
-                <div className='absolute left-20 bottom-14 bg-white p-5 rounded-2xl md:max-w-sm h-auto '>
+                <div className='absolute hidden md:block md:left-4 md:bottom-4 lg:left-20 lg:bottom-14 bg-white p-5 rounded-2xl md:max-w-sm h-auto '>
                     <div className='flex justify-between items-center'>
                         <div>
                             <h2 className='text-[#222222] mt-2 mb-2  text-[1.5rem]'>Cucumber Extract</h2>
@@ -31,7 +31,7 @@ const NaturalMakeupSection = () => {
                     />
                 </div>
                 {/* text content */}
-                <div className='absolute right-10 bottom-10'>
+                <div className='absolute right-2 bottom-2 lg:right-10 lg:bottom-10'>
                     <h2 className='text-[#FFFFFF] font-medium text-[3.5rem]'>Natural Makeup <br /> For Radiant Skin</h2>
 
                 </div>
