@@ -22,14 +22,14 @@ const HeroSection = () => {
                         <button className='flex items-center gap-1 font-medium text-[1.5rem] px-6 py-3 bg-[#607315] rounded-4xl text-white cursor-pointer'>Shop Now <ChevronRight /></button>
 
                     </div>
+                          {/* card */}
                     <div className='flex-1 hidden xl:block bg-white p-5 rounded-2xl md:max-w-sm h-auto '>
-                        {/* card */}
                         <div className='flex justify-between items-center'>       
                             <div>
                             <h2 className='text-[#222222] mt-2 mb-2  text-[1.5rem]'>Cucumber Extract</h2>
                             <span className='font-bold text-black  text-[1.5rem]'>$24.00</span> <span className='text-[#737373] line-through'>$32.00</span>
                             </div>
-                            <span className='mr-4 w-14 h-14 flex items-center justify-center text-black p-2 rounded-full border border-gray-200'><ArrowUpRight width={30} height={30}  /></span>
+                            <span className='mr-4 w-14 h-14 flex items-center justify-center text-[#607315] p-2 rounded-full border border-gray-200'><ArrowUpRight width={30} height={30}  /></span>
                         </div>
                          <Image
                         src='/product1.png'
