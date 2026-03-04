@@ -60,7 +60,7 @@ const InspiredSection = () => {
                 <div className="flex items-center gap-6 mt-22">
 
                     {/* Learn More Button */}
-                    <button className="bg-[#6B7F1D] text-white px-8 py-4 rounded-full text-xl font-medium">
+                    <button className="bg-[#6B7F1D] text-white px-8 py-4 rounded-full text-xl font-medium cursor-pointer">
                         Learn more
                     </button>
 

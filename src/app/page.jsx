@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import InspiredSection from "@/components/InspiredSection";
 import NaturalMakeupSection from "@/components/NaturalMakeupSection";
 import PopularProducts from "@/components/PopularProducts";
+import ReviewSection from "@/components/ReviewSection";
 import SkinMarqueeSection from "@/components/SkinMarqueeSection";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
           <ChooseCategory></ChooseCategory>
           <PopularProducts></PopularProducts>
           <NaturalMakeupSection></NaturalMakeupSection>
+          <ReviewSection></ReviewSection>
     </div>
   );
 }

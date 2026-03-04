@@ -20,7 +20,7 @@ export default function PopularProducts() {
             Popular Products
           </h2>
 
-          <button className="px-6 py-2 rounded-full border border-[#6B7F1D] text-[#6B7F1D] font-medium hover:bg-[#6B7F1D] hover:text-white transition">
+          <button className="px-6 py-2 rounded-full border border-[#6B7F1D] text-[#6B7F1D] font-medium hover:bg-[#6B7F1D] cursor-pointer hover:text-white transition">
             View all
           </button>
         </div>
@@ -31,7 +31,7 @@ export default function PopularProducts() {
             (tab, index) => (
               <button
                 key={index}
-                className={`px-6 py-2 rounded-full text-sm font-medium transition ${
+                className={`px-6 py-2 rounded-full text-sm font-medium transition cursor-pointer ${
                   index === 0
                     ? "bg-[#6B7F1D] text-white"
                     : "bg-[#E5E5E5] text-[#333]"
@@ -82,7 +82,7 @@ export default function PopularProducts() {
                     </span>
                   </div>
 
-                  <button className="bg-[#6B7F1D] text-white text-sm px-4 py-1.5 rounded-full hover:bg-[#556915] transition">
+                  <button className="bg-[#6B7F1D] text-white text-sm px-4 py-1.5 rounded-full hover:bg-[#556915] cursor-pointer transition">
                     Buy Now
                   </button>
                 </div>
