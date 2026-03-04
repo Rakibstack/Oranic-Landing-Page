@@ -4,7 +4,7 @@ import React from 'react';
 const BeforeAfterSection = () => {
 
     return (
-        <div className='relative w-full h-[644px] '>
+        <div className='relative w-full h-[480px] md:h-[520px] lg:h-[644px] '>
             <Image
             src={'/Before After.png'}
             alt='Before and After'

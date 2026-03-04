@@ -10,6 +10,7 @@ const NaturalMakeupSection = () => {
                 <Image
                     src={'/NaturalBanner1.png'}
                     alt='Natural Makeup Banner Image'
+                    className='object-cover'
                     fill
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#A9A884]/40  to-transparent"></div>
