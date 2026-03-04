@@ -29,7 +29,7 @@ const ReviewSection = () => {
       <div className="max-w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
         
         {/* Left Side */}
-        <div className="order-2 lg:order-1 flex flex-col justify-center space-y-25">
+        <div className="order-2 lg:order-1 flex flex-col justify-center space-y-35">
           <h2 className="text-4xl md:text-6xl font-serif text-[#222222] leading-tight">
             {data.title}
           </h2>
@@ -118,7 +118,7 @@ const ReviewSection = () => {
                   </span>
                 </div>
 
-                <button className="bg-[#5B7228] text-white text-sm px-4 py-2 rounded-full font-semibold hover:bg-[#4a5d21] transition-all transform hover:scale-105 active:scale-95 shadow-md">
+                <button className="bg-[#5B7228] text-white text-sm px-4 py-2 rounded-full font-semibold hover:bg-[#4a5d21] transition-all transform hover:scale-105 cursor-pointer active:scale-95 shadow-md">
                   Buy Now
                 </button>
               </div>

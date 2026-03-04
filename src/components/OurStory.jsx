@@ -7,8 +7,8 @@ const OurStory = () => {
 
     return (
         <div className='bg-white p-6'>
-            <div className='mx-w-11/12 mx-auto container py-10'>
-                <div className='flex justify-between items-center mb-10'>
+            <div className='mx-w-11/12 mx-auto container px-4 py-10'>
+                <div className='flex justify-between items-center mb-10 '>
                 <h2 className='text-[3.5rem] text-[#222222] font-medium'>Our Stories</h2>
                  <div className="flex gap-4 pt-6">
             <button className="p-4 border border-gray-300 rounded-full hover:bg-white hover:border-gray-400 transition-all text-gray-500 group">
@@ -32,7 +32,7 @@ const OurStory = () => {
                         <h2 className='text-[#222222] font-semibold mt-1'>Beauty</h2>
                     </div>
                     <h2 className='text-[#222222] text-[2rem]'>Your Daily Skincare Routine,<br /> Simplified</h2>
-                    <button className='flex items-center text-[#607315] text-[1.6rem]'>Read More <ChevronRight /></button>
+                    <button className='flex items-center text-[#607315] text-[1.6rem] cursor-pointer'>Read More <ChevronRight /></button>
                  </div>
                  <div>
                     <Image
@@ -46,7 +46,7 @@ const OurStory = () => {
                         <h2 className='text-[#222222] font-semibold mt-1'>Beauty</h2>
                     </div>
                     <h2 className='text-[#222222] text-[2rem]'>Your Daily Skincare Routine,<br /> Simplified</h2>
-                    <button className='flex items-center text-[#607315] text-[1.6rem]'>Read More <ChevronRight /></button>
+                    <button className='flex items-center text-[#607315]  text-[1.6rem] cursor-pointer'>Read More <ChevronRight /></button>
                  </div>
                  <div>
                     <Image
@@ -60,7 +60,7 @@ const OurStory = () => {
                         <h2 className='text-[#222222] font-semibold mt-1'>Beauty</h2>
                     </div>
                     <h2 className='text-[#222222] text-[2rem]'>Your Daily Skincare Routine,<br /> Simplified</h2>
-                    <button className='flex items-center text-[#607315] text-[1.6rem]'>Read More <ChevronRight /></button>
+                    <button className='flex items-center text-[#607315] text-[1.6rem] cursor-pointer'>Read More <ChevronRight /></button>
                  </div>
                  
             </div>

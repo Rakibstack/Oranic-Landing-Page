@@ -19,7 +19,9 @@ const HeroSection = () => {
                     <div className='flex-1 '>
                         <h2 className='text-[#FFFFFF] font-bold text-[2rem] md:text-[3rem] lg:text-[5rem]'>Natural Makeup <br /> For Radiant Skin</h2>
                         <p className='text-[#FFFFFF] text-[1.5rem] mb-4'>Ponds face wash for women removes all traces of pollution, dirt, and <br /> impurities to give you a fresh and clean complexion.</p>
-                        <button className='flex items-center gap-1 font-medium text-[1.5rem] px-6 py-3 bg-[#607315] rounded-4xl text-white cursor-pointer'>Shop Now <ChevronRight /></button>
+                        <button className='flex items-center gap-1 font-medium text-[1.5rem] px-6 py-3 bg-[#607315] rounded-4xl text-white cursor-pointer 
+                        hover:bg-white hover:text-[#6B7F1D] hover:border-[#6B7F1D] hover:scale-105 active:scale-90  duration-300 transition
+                        '>Shop Now <ChevronRight /></button>
 
                     </div>
                           {/* card */}
