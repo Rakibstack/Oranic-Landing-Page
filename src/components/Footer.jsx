@@ -94,7 +94,7 @@ const Footer = () => {
           {/* Big Huge Text Logo - Updated to match design */}
           <div className="w-full overflow-hidden flex justify-center relative">
             <h1 className="text-[120px]  md:text-[220px] lg:text-[320px] font-bold leading-none tracking-tighter pointer-events-none select-none italic uppercase
-              bg-gradient-to-b from-white via-white/70 to-transparent 
+              bg-gradient-to-b from-white via-white/80 to-transparent 
               bg-clip-text text-transparent">
               ORANIC
             </h1>

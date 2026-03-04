@@ -73,7 +73,7 @@ const ReviewSection = () => {
         {/* Right Side: Image Section */}
         <div className="relative flex justify-center lg:justify-end">
           {/* Main Background Image (The girl applying cream) */}
-          <div className="relative w-full aspect-[4/5] md:w-125 md:h-150 rounded-[40px] overflow-hidden shadow-2xl ">
+          <div className="relative w-full  md:w-145 md:h-150 rounded-[40px] overflow-hidden shadow-2xl ">
             <Image 
               src={data.productImage} 
               alt="Skin Care Section" 
@@ -84,7 +84,7 @@ const ReviewSection = () => {
           </div>
 
           {/* Floating Product Card */}
-          <div className="absolute -left-8 md:-left-8 lg:left-4 top-[25%] bg-white p-4 rounded-[24px] shadow-[0_20px_50px_rgba(0,0,0,0.15)] w-[260px] border border-white/50 backdrop-blur-sm">
+          <div className="absolute -left-8 md:-left-8 lg:-left-14 top-[25%] bg-white p-4 rounded-[24px] shadow-[0_20px_50px_rgba(0,0,0,0.15)] w-[260px] border border-white/50 backdrop-blur-sm">
             <div className="relative w-full h-40 rounded-2xl overflow-hidden mb-4">
               <div className="absolute top-2 left-2 bg-[#5B7228] text-white text-[11px] px-3 py-1.5 rounded-lg font-bold z-10 shadow-sm">
                 {data.floatingProduct.discount} OFF

@@ -11,7 +11,6 @@ const NaturalMakeupSection = () => {
                     src={'/NaturalBanner1.png'}
                     alt='Natural Makeup Banner Image'
                     fill
-                    className='object-cover object-center lg:object-[75%_center]'
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#A9A884]/40  to-transparent"></div>
                 {/* card item */}

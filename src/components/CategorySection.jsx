@@ -48,7 +48,7 @@ export default function ChooseCategory() {
           {categories.map((item, index) => (
             <div
               key={index}
-              className="relative group rounded-2xl overflow-hidden"
+              className="relative group rounded-2xl  transition-all hover:-translate-y-5 duration-400 ease-in-out overflow-hidden"
             >
               <Image
                 src={item.image}
@@ -60,7 +60,7 @@ export default function ChooseCategory() {
 
               {/* Bottom Blur Label */}
               <div className="absolute bottom-4 left-4 right-4 bg-white/20 backdrop-blur-md rounded-xl py-3 text-center">
-                <p className="text-white font-medium tracking-wide">
+                <p className="text-white cursor-pointer font-medium tracking-wide">
                   {item.title}
                 </p>
               </div>

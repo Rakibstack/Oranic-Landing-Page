@@ -1,3 +1,4 @@
+import BeforeAfterSection from "@/components/BeforeAfterSection";
 import ChooseCategory from "@/components/CategorySection";
 import HeroSection from "@/components/HeroSection";
 import InspiredSection from "@/components/InspiredSection";
@@ -17,6 +18,7 @@ export default function Home() {
           <PopularProducts></PopularProducts>
           <NaturalMakeupSection></NaturalMakeupSection>
           <ReviewSection></ReviewSection>
+          <BeforeAfterSection></BeforeAfterSection>
     </div>
   );
 }

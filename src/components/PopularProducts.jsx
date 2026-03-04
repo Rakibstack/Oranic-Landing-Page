@@ -48,7 +48,7 @@ export default function PopularProducts() {
           {products.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl p-4 shadow-sm hover:shadow-md transition"
+              className="bg-white rounded-2xl p-4 shadow-sm hover:shadow-lg  transition-all hover:-translate-y-5 duration-400 ease-in-out "
             >
               {/* Image */}
               <div className="relative rounded-xl overflow-hidden">
