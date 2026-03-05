@@ -18,7 +18,6 @@ const Footer = () => {
       }
     ],
     socials: [
-      // এখানে আপনার ইমেজ পাথগুলো বসিয়ে দিন (যেমন: /icons/facebook.svg)
       { img: "/Facebook.png", link: "#", alt: "Facebook" },
       { img: "/Vector.png", link: "#", alt: "Instagram" },
       { img: "/Whatsapp.png", link: "#", alt: "WhatsApp" },
@@ -28,7 +27,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#6B7D27] text-white pt-16 pb-8 px-6 md:px-12 lg:px-24 font-sans">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-11/12 mx-auto container ">
         
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">

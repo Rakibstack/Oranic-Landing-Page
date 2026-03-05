@@ -8,7 +8,7 @@ const OurStory = () => {
     return (
         <div className='bg-white p-6'>
             <div className='mx-w-11/12 mx-auto container px-4 py-10'>
-                <div className='flex justify-between items-center mb-10 '>
+                <div className='flex justify-between items-center mb-10 px-4'>
                 <h2 className='text-[3.5rem] text-[#222222] font-medium'>Our Stories</h2>
                  <div className="flex gap-4 pt-6">
             <button className="p-4 border border-gray-300 rounded-full hover:bg-white hover:border-gray-400 transition-all text-gray-500 group">
@@ -19,7 +19,7 @@ const OurStory = () => {
             </button>
           </div>
             </div>
-            <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+            <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                  <div>
                     <Image
                     src={'/story.png'}
@@ -27,7 +27,7 @@ const OurStory = () => {
                     width={440}
                     height={300}
                     />
-                    <div className='flex gap-2 items-center mt-2'>
+                    <div className='flex gap-2 items-center mt-3'>
                         <div className='inline-flex w-2 h-2 rounded-full bg-black'></div>
                         <h2 className='text-[#222222] font-semibold mt-1'>Beauty</h2>
                     </div>
@@ -41,7 +41,7 @@ const OurStory = () => {
                     width={440}
                     height={300}
                     />
-                    <div className='flex gap-2 items-center mt-2'>
+                    <div className='flex gap-2 items-center mt-3'>
                         <div className='inline-flex w-2 h-2 rounded-full bg-black'></div>
                         <h2 className='text-[#222222] font-semibold mt-1'>Beauty</h2>
                     </div>
@@ -55,7 +55,7 @@ const OurStory = () => {
                     width={440}
                     height={300}
                     />
-                    <div className='flex gap-2 items-center mt-2'>
+                    <div className='flex gap-2 items-center mt-3'>
                         <div className='inline-flex w-2 h-2 rounded-full bg-black'></div>
                         <h2 className='text-[#222222] font-semibold mt-1'>Beauty</h2>
                     </div>

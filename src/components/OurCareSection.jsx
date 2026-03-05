@@ -6,10 +6,10 @@ const OurCareSection = () => {
 
     return (
         <div className='bg-[#FAFFE5] py-22'>
-            <div className='flex gap-6 mx-w-11/12 mx-auto container'>
+            <div className='lg:flex gap-6 mx-w-11/12 mx-auto container'>
                 {/* our care content */}
                 <div className='flex-1 bg-[#607315] rounded-3xl p-8 '>
-                   <div className='py-26 space-y-4'>
+                   <div className='py-20 space-y-4'>
                      <p className='text-[#FFFFFF] text-[24px] '>Expert skin care</p>
                     <h2 className='text-[#FFFFFF] font-bold text-[3.5rem]'>Redefine timeless <br /> beauty with our care</h2>
                  <button className='flex gap-2 items-center bg-white px-4 py-2 rounded-4xl cursor-pointer hover:bg-[#6B7F1D] hover:text-white hover:border-white border duration-300 transition text-[#607315] text-[1.4rem]'>Shop Now <ChevronRight /></button>
@@ -46,7 +46,7 @@ const OurCareSection = () => {
 
                 </div>
                 {/* our care image */}
-                <div className='relative flex-1 w-full h-[500px] lg:h-[640px]'>
+                <div className='relative flex-1 w-full mt-10 lg:mt-0 h-[560px] lg:h-[640px]'>
                     <Image
                     src={'/ourcareImage.png'}
                     alt='beauty with our care'

@@ -1,6 +1,7 @@
 import BeforeAfterSection from "@/components/BeforeAfterSection";
 import ChooseCategory from "@/components/CategorySection";
 import FAQSection from "@/components/FAQSection";
+import Gallery from "@/components/Gallery";
 import HeroSection from "@/components/HeroSection";
 import InspiredSection from "@/components/InspiredSection";
 import NaturalMakeupSection from "@/components/NaturalMakeupSection";
@@ -25,6 +26,7 @@ export default function Home() {
           <FAQSection></FAQSection>
           <OurStory></OurStory>
           <OurCareSection></OurCareSection>
+          <Gallery></Gallery>
     </div>
   );
 }
