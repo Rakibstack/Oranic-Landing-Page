@@ -12,7 +12,7 @@ const OurCareSection = () => {
                    <div className='py-20 space-y-4'>
                      <p className='text-[#FFFFFF] text-[24px] '>Expert skin care</p>
                     <h2 className='text-[#FFFFFF] font-bold text-[3.5rem]'>Redefine timeless <br /> beauty with our care</h2>
-                 <button className='flex gap-2 items-center bg-white px-4 py-2 rounded-4xl cursor-pointer hover:bg-[#6B7F1D] hover:text-white hover:border-white border duration-300 transition text-[#607315] text-[1.4rem]'>Shop Now <ChevronRight /></button>
+                 <button className='flex gap-2 items-center bg-white px-4 py-2 rounded-4xl cursor-pointer hover:bg-[#6B7F1D] hover:text-white hover:border-white border duration-300 transition text-[#607315] active:scale-90 text-[1.4rem]'>Shop Now <ChevronRight /></button>
                     <div className='mt-10 flex items-center gap-8'>
                           <div className="flex items-center -space-x-4">
                         <div className="w-14 h-14 rounded-full border-3

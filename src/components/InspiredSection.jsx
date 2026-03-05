@@ -35,7 +35,7 @@ const InspiredSection = () => {
                     </div>
                     <div className='bg-[#FFFFFF] p-4 '>
                         <span className='inline-flex items-center justify-center p-3 bg-[#FAFFE5] rounded-md'><Image
-                            src={'/cruelty.png'}
+                            src={'/system.png'}
                             alt='Tree'
                             width={28}
                             height={38}
@@ -46,7 +46,7 @@ const InspiredSection = () => {
                     </div>
                     <div className='bg-[#FFFFFF] p-4 '>
                         <span className='inline-flex items-center justify-center p-3 bg-[#FAFFE5] rounded-md'><Image
-                            src={'/tree.png'}
+                            src={'/cruelty.png'}
                             alt='Tree'
                             width={28}
                             height={38}

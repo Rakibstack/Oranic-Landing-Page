@@ -14,13 +14,11 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex="-1"
-                        className="menu menu-sm dropdown-content bg-base-100 text-[#222222] rounded-box z-1 mt-3 w-52 p-2 shadow">
-                       <li><a>Category </a></li>
-                    <li>
-                        <a>Shop</a>
-                    </li>
-                    <li><a>Offer</a></li>
-                    <li><a>Pages</a></li>
+                        className="menu menu-sm dropdown-content bg-base-100 flex gap-1 text-[1.5rem] cursor-pointer  text-[#222222] px-1 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                      <li><a className='flex items-center gap-1'>Category <ChevronDown /></a></li>
+                    <li><a className='flex items-center gap-1'>Shop <ChevronDown /></a></li>
+                    <li><a className='flex items-center gap-1'>Offer <ChevronDown /></a></li>
+                    <li><a className='flex items-center gap-1'>Pages <ChevronDown /></a></li>
                     </ul>
                 </div>
                 <a className=" text-[3rem] text-[#607315] font-medium">ORANIC</a>

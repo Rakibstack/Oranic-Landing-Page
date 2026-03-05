@@ -26,7 +26,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#6B7D27] text-white pt-16 pb-8 px-6 md:px-12 lg:px-24 font-sans">
+    <footer className="bg-[#6B7D27] text-white pt-16 pb-8 px-6 md:px-12 lg:px-6 font-sans">
       <div className="max-w-11/12 mx-auto container ">
         
         {/* Top Section */}
@@ -91,8 +91,8 @@ const Footer = () => {
           </p>
           
           {/* Big Huge Text Logo - Updated to match design */}
-          <div className="w-full overflow-hidden flex justify-center relative">
-            <h1 className="text-[120px]  md:text-[220px] lg:text-[320px] font-bold leading-none tracking-tighter pointer-events-none select-none italic uppercase
+          <div className="w-full overflow-hidden flex justify-center relative mr-12">
+            <h1 className="text-[100px]  md:text-[210px] lg:text-[360px] font-bold leading-none tracking-tighter pointer-events-none select-none  uppercase
               bg-gradient-to-b from-white via-white/80 to-transparent 
               bg-clip-text text-transparent">
               ORANIC

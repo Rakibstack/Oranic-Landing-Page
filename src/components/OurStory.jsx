@@ -8,6 +8,7 @@ const OurStory = () => {
     return (
         <div className='bg-white p-6'>
             <div className='mx-w-11/12 mx-auto container px-4 py-10'>
+                {/* story Header Section */}
                 <div className='flex justify-between items-center mb-10 px-4'>
                 <h2 className='text-[3.5rem] text-[#222222] font-medium'>Our Stories</h2>
                  <div className="flex gap-4 pt-6">
@@ -19,6 +20,7 @@ const OurStory = () => {
             </button>
           </div>
             </div>
+            {/* content Image */}
             <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                  <div>
                     <Image
